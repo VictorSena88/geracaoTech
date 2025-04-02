@@ -4,15 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeira Página</title>
-    <link>
+    <title>Meu primeiro site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <H1>Olá mundo</H1>
-        <p>Olá dev</p>
-    </div>
+    <header>
+        <h1 id="inicio">Geração Tech</h1>
+        <h2>Desenvolvendo o Futuro da Tecnologia no Ceará</h2>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#midia">Mídia</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <figure>
+                <img src="https://www.ceara.gov.br/wp-content/uploads/2024/04/IMG_2054.jpg" alt="logo Geração Tech">
+                <figcaption>Geração Tech 2.0</figcaption>
+            </figure>
+            <hr>
+        </section>
+
+        <article id="sobre">
+            <h2>Como funciona o Geração Tech:</h2>
+            <p>O Geração Tech é um projeto do Instituto Euvaldo Lodi (IEL) e o Governo do Estado do Ceará por meio da
+                Agência de Desenvolvimento do Estado do Ceará (ADECE) para capacitação de jovens na área da tecnologia.
+                A
+                iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos
+                jovens no mercado da tecnologia e inovação.</p>
+            <h3>Requisitos importantes do edital</h3>
+            <p>
+                • Idade mínima 17 anos;<br>
+                • Ser residente do Ceará;<br>
+                • Dominar conhecimentos em Informática Básica;<br>
+                • Ter acesso a computador ou notebook e acesso à internet (sendo o acesso obrigatório para candidatos da
+                modalidade online);<br>
+                • Alunos de escola pública terão preferência na seleção.
+            </p>
+        </article>
+
+        <section id="midia">
+            <h3>Galeria de Mídia</h3>
+            <video width="320" height="240" controls>
+                <source src="arquivos/geracaoTech.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <audio controls>
+                <source src="arquivos/audioGeracao.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </section>
+
+        <section id="links">
+            <h3>Links:</h3>
+            <ul>
+                <li><a href="https://geracaotech.iel-ce.org.br/edital/" target="_blank">Edital</a></li>
+                <li><a href="https://geracaotech.iel-ce.org.br/resultado-fase1/" target="_blank">Lista de convocados</a>
+                </li>
+                <li><a href="https://geracaotech.iel-ce.org.br/talentos-geracao-tech/" target="_blank">Talentos Geração
+                        Tech</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Geração Tech - Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

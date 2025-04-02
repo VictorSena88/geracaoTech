@@ -48,3 +48,11 @@ meta charset=UTF-8, descrições e palavras-chave para mecanismos de busca.
 Entender a anatomia de um documento HTML é essencial para criar páginas
 web bem estruturadas e semânticas, facilitando a manutenção
 e a acessibilidade do conteúdo.
+
+
+tag filha: siginifica que estar dentro de outra. por exemplo:
+html tem a  head e body, body tem header, main e footer.
+body: corpo do site
+header: cabeçario do site
+main: conteudo principal do site
+footer: rodapé do site
