@@ -7,6 +7,7 @@
     <title>Meu primeiro site</title>
     <style>
         body {
+
             font-family: Arial, sans-serif;
             margin: 20px;
             background-image: linear-gradient(white, blue);
@@ -25,7 +26,6 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
         }
 
         nav ul li {
@@ -36,6 +36,20 @@
             text-decoration: none;
             color: blue;
             font-weight: bold;
+            list-style: none;
+        }
+
+        #links ul {
+            list-style: none;
+        }
+
+        #links ul li {
+            list-style: none;
+        }
+
+        #links ul li a {
+            text-decoration: none;
+            color: black;
         }
 
         main {
@@ -45,33 +59,12 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        img,
-        video {
-            max-width: 100%;
-            height: auto;
-        }
-
         footer {
             text-align: center;
             padding: 10px;
             background: #222425;
             color: white;
             margin-top: 20px;
-        }
-
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            nav ul li {
-                margin: 10px 0;
-            }
-
-            main {
-                padding: 10px;
-            }
         }
     </style>
 </head>
@@ -95,24 +88,47 @@
                 <img src="https://www.ceara.gov.br/wp-content/uploads/2024/04/IMG_2054.jpg" alt="logo Geração Tech">
                 <figcaption>Geração Tech 2.0</figcaption>
             </figure>
+            <hr>
         </section>
+
         <article id="sobre">
             <h2>Como funciona o Geração Tech:</h2>
-            <p>O Geração Tech é um projeto do Instituto Euvaldo Lodi (IEL) e o Governo do Estado do Ceará...</p>
+            <p>O Geração Tech é um projeto do Instituto Euvaldo Lodi (IEL) e o Governo do Estado do Ceará por meio da
+                Agência de Desenvolvimento do Estado do Ceará (ADECE) para capacitação de jovens na área da tecnologia.
+                A
+                iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos
+                jovens no mercado da tecnologia e inovação.</p>
+            <h3>Requisitos importantes do edital</h3>
+            <p>
+                • Idade mínima 17 anos;<br>
+                • Ser residente do Ceará;<br>
+                • Dominar conhecimentos em Informática Básica;<br>
+                • Ter acesso a computador ou notebook e acesso à internet (sendo o acesso obrigatório para candidatos da
+                modalidade online);<br>
+                • Alunos de escola pública terão preferência na seleção.
+            </p>
         </article>
+
         <section id="midia">
             <h3>Galeria de Mídia</h3>
-            <video controls>
+            <video width="320" height="240" controls>
                 <source src="arquivos/geracaoTech.mp4" type="video/mp4">
                 Seu navegador não suporta o elemento de vídeo.
             </video>
+            <audio controls>
+                <source src="arquivos/audioGeracao.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
         </section>
+
         <section id="links">
             <h3>Links:</h3>
             <ul>
                 <li><a href="https://geracaotech.iel-ce.org.br/edital/" target="_blank">Edital</a></li>
                 <li><a href="https://geracaotech.iel-ce.org.br/resultado-fase1/" target="_blank">Lista de convocados</a>
                 </li>
+                <li><a href="https://geracaotech.iel-ce.org.br/talentos-geracao-tech/" target="_blank">Talentos Geração
+                        Tech</a></li>
             </ul>
         </section>
     </main>
